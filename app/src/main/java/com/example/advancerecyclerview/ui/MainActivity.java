@@ -1,8 +1,10 @@
-package com.example.advancerecyclerview;
+package com.example.advancerecyclerview.ui;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.example.advancerecyclerview.R;
 
 public class MainActivity extends AppCompatActivity {
 
