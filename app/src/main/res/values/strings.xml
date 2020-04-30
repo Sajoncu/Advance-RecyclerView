@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">AdvanceRecyclerView</string>
+    <string name="lorem_text">We have explained earlier how to implement Android RecyclerView. But in that article, we have explained about a normal RecyclerView means each row has the same UI. That means a RecyclerView with only a single view type. Now in this article, we will implement RecyclerView with multiple view type.We have explained earlier how to implement Android RecyclerView. But in that article, we have explained about a normal RecyclerView means each row has the same UI. That means a RecyclerView with only a single view type. Now in this article, we will implement RecyclerView with multiple view type.</string>
 </resources>
