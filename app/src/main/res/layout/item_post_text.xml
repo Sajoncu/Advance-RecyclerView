@@ -11,7 +11,7 @@
         android:layout_width="1dp"
         android:layout_height="0dp"
         android:layout_marginStart="32dp"
-        android:srcCompact="@color/gray_line_color"
+        android:src="@color/gray_line_color"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -28,7 +28,7 @@
         app:layout_constraintTop_toTopOf="@+id/line" />
 
     <ImageView
-        android:id="@+id/port_text_image"
+        android:id="@+id/post_text_image"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginTop="16dp"
@@ -39,7 +39,7 @@
         tools:srcCompat="@tools:sample/avatars" />
 
     <TextView
-        android:id="@+id/port_text_content"
+        android:id="@+id/post_text_content"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -51,7 +51,7 @@
         android:text="@string/lorem_text"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/port_text_image"
+        app:layout_constraintStart_toEndOf="@+id/post_text_image"
         app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

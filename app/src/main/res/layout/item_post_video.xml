@@ -11,13 +11,13 @@
         android:layout_width="1dp"
         android:layout_height="0dp"
         android:layout_marginStart="32dp"
-        android:srcCompact="@color/gray_line_color"
+        android:src="@color/gray_line_color"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/post_text_time"
+        android:id="@+id/post_video_time"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
@@ -28,18 +28,18 @@
         app:layout_constraintTop_toTopOf="@+id/line" />
 
     <ImageView
-        android:id="@+id/port_text_image"
+        android:id="@+id/port_video_user_image"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_marginTop="16dp"
         app:layout_constraintEnd_toEndOf="@+id/line"
         app:layout_constraintHorizontal_bias="0.41"
         app:layout_constraintStart_toStartOf="@+id/line"
-        app:layout_constraintTop_toBottomOf="@+id/post_text_time"
+        app:layout_constraintTop_toBottomOf="@+id/post_video_time"
         tools:srcCompat="@tools:sample/avatars" />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/post_video_image"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="24dp"
@@ -49,7 +49,7 @@
         android:layout_marginBottom="24dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/port_text_image"
+        app:layout_constraintStart_toEndOf="@+id/port_video_user_image"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/video_bg" />
 
@@ -60,10 +60,10 @@
         app:backgroundTint="@color/red"
         android:layout_height="wrap_content"
         android:clickable="true"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
-        app:layout_constraintEnd_toEndOf="@+id/imageView2"
-        app:layout_constraintStart_toStartOf="@+id/imageView2"
-        app:layout_constraintTop_toTopOf="@+id/imageView2"
+        app:layout_constraintBottom_toBottomOf="@+id/post_video_image"
+        app:layout_constraintEnd_toEndOf="@+id/post_video_image"
+        app:layout_constraintStart_toStartOf="@+id/post_video_image"
+        app:layout_constraintTop_toTopOf="@+id/post_video_image"
         tools:srcCompat="@drawable/ic_play_arrow_black_24dp" />
 
 
